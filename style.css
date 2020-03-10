@@ -82,3 +82,9 @@ header p {
     bottom: 0;
     left: 20%;
 }
+@media only screen and (max-width: 500px) {
+    .bubble > div {
+        width: 30px;
+        height: 30px;
+    }
+}
